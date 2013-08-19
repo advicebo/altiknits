@@ -1,0 +1,165 @@
+@import url('fuentes.css');
+* {
+  margin: 0;
+  padding: 0;
+}
+body
+{
+	background-image:url(../img/fondo.jpg);
+ 	font-size: 15px;
+ 	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+ }
+header #logo
+	{	
+		margin-top: 150px;
+		width: 20%;
+		text-align: center;
+		font-weight: 800;
+		margin-left: 40%;
+		padding: 0;
+	}
+
+#apDiv1 {
+	position:absolute;
+	left:42%;
+	top:103px;
+	width:150px;
+	height:50px;
+	z-index:1;
+	font-size: 4em; 
+	font-family: letras;
+	color: white;
+}
+
+@media screen and (min-width:800px){  
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover
+{
+	text-decoration: underline;
+
+}
+#contenedor
+	{
+		width: 100%;
+	}
+#contenedor ul li 
+	{
+		list-style: inherit;
+		display: inline-block;
+		width: 16.4%;
+		height: 590px;
+		text-align: center;  
+		padding-top: 25px;	
+		margin-top: 0px;
+		background-color: transparent;
+
+	}
+#contenedor ul li div
+	{
+		margin-top: 280px;
+	}
+#contenedor ul li div a
+	{
+		margin-top: 280px;
+		color: #bfbfbf;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		font-family: verdana;
+		font-size: 1.5em;
+	}
+#contenedor ul li div a:hover {
+	color: white;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 1.5em;
+}
+
+#mov
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width:600px){  
+
+	@import url('fuentes.css');
+	#cab ul {
+		padding: 5px;
+		height: 17px;
+		background: black;
+	}
+
+	#cab ul li{
+		display: inline;
+		background: black;
+		font-size: 15px;
+		color: white;
+		text-align: center;
+		margin-left: 24%;
+	}
+
+	#menu ul li{
+		background: rgb(252,255,244); /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1))); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		font-size: 15px;
+		color: black;
+		height: 20px;
+		text-align: center;
+		padding-top: 10px;
+
+	}
+	hr {
+
+		border: 0;
+	    height: 2px;
+	    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.75), rgba(0,0,0,0.75), rgba(255,255,255,0.75)); 
+	    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	}
+
+	#contenedor	{
+		display: none;
+	}
+	#apDiv1 {
+		position:absolute;
+		left:30%;
+		top:10px;
+		bottom: 10px;
+		width:100%;
+		height:80px;
+		z-index:1;
+		font-size: 4em; 
+		font-family: letras;
+		color: white;
+	}
+	footer {
+		width: 100% !important;
+	}
+	footer ul{
+		width: 100%;
+		padding: 10px 10px;
+	}
+	footer ul li{
+		box-shadow: 0 0 10px black inset;
+		display: inline-block;
+		width: 25% !important;
+		background-color: white;
+		vertical-align: top;
+		margin-right: 1%;
+		padding: 2%;
+		text-align: center;
+	}
+}
