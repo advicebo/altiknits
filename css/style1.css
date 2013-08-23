@@ -18,8 +18,7 @@ a:hover {
 }
 
 #wrap {
-	width: 100%;
-		
+	width: 100%;		
 }
 
 /*Header*/
@@ -119,8 +118,13 @@ width: 50px;
 	float: left;
 	background: white;
 	margin: 10px 0px 0px 0px;
-
 }
+
+#slider:after{
+	content: url(../img/im1.png) url(../img/im2.png) url(../img/im3.png) url(../img/im4.png) url(../img/im5.png) url(../img/im6.png);
+display: none;
+}
+
 
 /*footer*/
 footer #footer > div{

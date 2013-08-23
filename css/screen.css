@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+body:after
+{
+content: url(../img/im1.png) url(../img/im2.png) url(../img/im3.png) url(../img/im4.png) url(../img/im5.png) url(../img/im6.png);
+display: none;
+}
 body
 {
 	background-image:url(../img/fondo.jpg);
